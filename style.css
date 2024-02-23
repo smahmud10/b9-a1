@@ -47,7 +47,7 @@ body{
         margin-top: 10px;
     }
     .banner{
-        background-image: url("../image/Banner\ Image.png");
+        background-image: url("/image/Banner\ Image.png");
         background-repeat: no-repeat;
         text-align: center;
         /* padding: 177px 0px 177px 0px; */
