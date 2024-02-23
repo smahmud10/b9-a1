@@ -1,0 +1,429 @@
+/* common style */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.f-merriweather{
+    font-family: 'Merriweather', serif;}
+
+    .primary-paragraph{
+        color: rgba(7, 2, 17, 0.60);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .primary-btn{
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 10px 30px;
+        background-color: #F00;
+        border: none;
+        border-radius: 5px;
+        transition: .2s;
+    }
+    .primary-btn:hover{
+        background-color: rgb(173, 0, 0);
+        cursor: pointer;
+        color: #bebebe;
+    }
+    .place-red{
+        color: #F00;
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    /* header section */
+    header{
+        max-width: 1320px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .banner{
+        background-image: url("../image/Banner\ Image.png");
+        background-repeat: no-repeat;
+        text-align: center;
+        /* padding: 177px 0px 177px 0px; */
+        background-position: center;
+        height: 600px;
+        position: relative;
+        z-index: 1;
+    }
+    .banner::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url("../image/Rectangle\ 15.png");
+        z-index: -1;
+    }
+    
+    .banner-sub-title{
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        padding-top: 177px;
+        z-index: 1; 
+    }
+    .banner-main-title{
+        color: #FFF;
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 95px; /* 131.944% */
+        margin-top: 0px;
+        z-index: 1;
+    }
+    /* Main section */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Holiday sell section */
+.holyday-sell{
+    text-align: center;
+}
+.holyday-discount{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 120px 0px 0px 0px;
+}
+.holyday-comment{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.holyday-category{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+.holiday-img{
+    width: 802.9px;
+    height: 500px;
+}
+
+/* Welcome section */
+.welcome{
+    display: flex;
+    background-image: url("../image/Vectorrr.png");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+}
+.welcome::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../image/Vector11.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.welcome-text{
+    padding: 126px 40px 142px 126px;
+    z-index: 1;
+}
+.welcome-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 0px;
+}
+.welcome-text p{
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.80);
+}
+.welcome-text a button{
+    margin-top: 48px;
+}
+.welcome-year{
+    padding: 68px 138px 67px 38px;
+    z-index: 1;
+}
+.welcome-year img{
+    width: 320px;
+    height: 465px;
+}
+
+/* Place section */
+.place{
+    text-align: center;
+    background-image: url("../image/red\ liner\ gradient.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    margin-top: 120px;
+}
+.place-text{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.place button{
+    margin-top: 48px;
+}
+
+/* Coming soon section */
+.coming-soon{
+    display: flex;
+    margin-top: 120px;
+}
+.coming-text{
+    padding: 104px 130px 104px 0px;
+}
+.coming-text-offer{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming-text-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.coming-img{
+    position: relative;
+}
+.coming-img .coming-img-1{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 463px;
+    height: 463px;
+}
+.coming-img-2{
+    width: 365px;
+    height: 365px;
+}
+
+.coming-logo{
+    padding-top: 112px;
+    margin-left: 165px;
+}
+.coming-logo-year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming-logo img{
+    width: 140px;
+    height: 140px;
+    margin-top: 45px;
+}
+
+/* Discount section */
+.discount{
+    margin-top: 120px;
+}
+.discount-top-text{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-title{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.discount-description{
+    padding: 0 130px;
+}
+
+
+.discount-main{
+    padding-top: 65px;
+}
+.discount-image-1{
+    text-align: right;
+    position: relative;
+}
+.discount-image-2{
+    margin-top: -3px;
+    position: relative;
+}
+
+.discount-image-1 img:nth-child(2){
+    position: absolute;
+    top: 86px;
+    right: 285px;
+}
+
+.discount-image-2 img:nth-child(1){
+    width: 1320px;
+    height: 230px;
+}
+.discount-image-2 img:nth-child(2){
+    position: absolute;
+    top: -425px;
+    left: -64px;
+    width: 795px;
+    height: 662px;
+}
+
+/* Portfolio section */
+.portfolio{
+    margin-top: 120px;
+}
+.portfolio-gift-text{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+.portfolio p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 895px;
+    margin-top: 22px;
+}
+.portfolio-images{
+    padding-top: 48px;
+}
+.portfolio-img{
+    display: flex;
+}
+.portfolio-img img{
+    padding: 12px;
+}
+
+/* subscribe section */
+.subscribe{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.075);
+    padding: 80px 212px;
+    margin-top: 120px;
+}
+.subscribe img{
+    width: 150px;
+    height: 150px;
+}
+.subscribe-title{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscribe-description{
+    margin-top: 22px;
+}
+
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#email{
+    width: 30%;
+    background-color: #FFF;
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 25px 20px 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none; /* New property focus border remove */
+}
+#submit{
+    padding: 20px 60px;
+    border-radius: 0px 50px 50px 0px;
+}
+#email:focus{
+    color: rgb(10, 10, 10);
+}
+
+/* footer section */
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+}
+.footer-sub{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.top-text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-top>h3{
+    padding: 120px 236px 0px 0px;
+}
+.top-icon{
+    padding: 120px 130px 0px 0px;
+    text-align: left;
+}
+.top-icon img{
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+.top-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-middle{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);;
+    border-left: none;
+    border-right: none;
+    padding: 48px 0px;
+}
+.footer-middle a{
+    display: inline-block;
+    padding: 0px 24px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
